@@ -3,6 +3,7 @@
         <slot></slot>
     </span>
 </template>
+
 <style scoped>
 span {
     background-color: rgba(0, 0, 0, 0.2);

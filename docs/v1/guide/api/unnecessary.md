@@ -10,7 +10,7 @@
 
 #### 启动
 
-重建依赖库，在[快速开始](..)处以有，此处不再赘述。
+重建依赖库，在[快速开始](../)处以有，此处不再赘述。
 
 在项目根目录下运行`yarn project dev ui`，即可启动WaterBox。  
 WaterBox会自动打开浏览器，并跳转到`http://localhost:25565`，如果浏览器没有自动打开，请手动打开。  
@@ -485,4 +485,4 @@ TextParser.hasName("argC:bool"); //true
 
 :::
 
-[已释放的通用API](./general)
+[已释放的通用API](./general/)

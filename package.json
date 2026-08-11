@@ -2,14 +2,13 @@
     "name": "fs-context-docs",
     "version": "1.0.0",
     "private": true,
+    "type": "module",
     "devDependencies": {
-        "vuepress": "^1.9.10"
+        "vitepress": "^1.6.4"
     },
     "scripts": {
-        "dev": "vuepress dev docs",
-        "build": "vuepress build docs"
-    },
-    "dependencies": {
-        "vue": "2.7.16"
+        "dev": "vitepress dev docs",
+        "build": "vitepress build docs",
+        "preview": "vitepress preview docs"
     }
 }

@@ -1,3 +1,10 @@
+export interface PeopleDescriptor {
+    avatar: string;
+    name: string;
+    url: string;
+    label: string[];
+}
+export type People = "fr" | "fs" | "ce" | "mbd";
 export default {
     fr: {
         avatar: "https://avatars.githubusercontent.com/u/55276797",
@@ -23,4 +30,4 @@ export default {
         url: "https://github.com/MoreBugOfDog",
         label: ["代码优化", "功能建议"]
     }
-};
+} satisfies Record<People, PeopleDescriptor>;
